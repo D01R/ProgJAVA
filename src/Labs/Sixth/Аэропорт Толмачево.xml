@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19.0.1" class="java.beans.XMLDecoder">
+ <object class="Labs.Sixth.Airport" id="Airport0">
+  <void property="aircrafts">
+   <void method="add">
+    <object class="Labs.Sixth.Plane" id="Plane0">
+     <void property="distance">
+      <int>1000</int>
+     </void>
+     <void property="model">
+      <string>Boeing 737</string>
+     </void>
+     <void property="numPass">
+      <int>234</int>
+     </void>
+     <void property="passengers">
+      <void method="add">
+       <object class="Labs.Sixth.Passenger">
+        <void property="name">
+         <string>Dair</string>
+        </void>
+        <void property="place">
+         <int>100</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Labs.Sixth.Passenger">
+        <void property="name">
+         <string>Ilya</string>
+        </void>
+        <void property="place">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Labs.Sixth.Plane" id="Plane1">
+     <void property="distance">
+      <int>1300</int>
+     </void>
+     <void property="model">
+      <string>Boeing 747</string>
+     </void>
+     <void property="numPass">
+      <int>350</int>
+     </void>
+     <void property="passengers">
+      <void method="add">
+       <object class="Labs.Sixth.Passenger">
+        <void property="name">
+         <string>Alex</string>
+        </void>
+        <void property="place">
+         <int>10</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Labs.Sixth.Passenger">
+        <void property="name">
+         <string>Anastasia</string>
+        </void>
+        <void property="place">
+         <int>2</int>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="name">
+   <string>Аэропорт Толмачево</string>
+  </void>
+ </object>
+</java>
